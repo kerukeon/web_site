@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin impact paimon guide</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!--Header starts-->
+    <header class="header">
+        
+        <div class="wrapper">
+
+           <div class="header__wrapper">
+
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="./img/svg/logo.svg" alt="Genshin impact paimon guide" class="header__logo-pic">
+                    </a>
+                    
+                </div>
+
+                <nav class="header__nav">
+                
+                    <ul class="header__list">
+
+                        <li class="header__item">
+                            <a href="index.html" class="header__link">Home Page</a>
+                        </li>
+
+                        <li class="header__item">
+                            <a href="bosses.html" class="header__link">Bosses</a>
+                        </li>
+
+                        <li class="header__item">
+                            <a href="resources.html" class="header__link">Resources</a>
+                        </li>
+
+                        <li class="header__item">
+                            <a href="characters.html" class="header__link">Characters</a>
+                        </li>
+
+                        <li class="header__item">
+                            <a href="elements.html" class="header__link">Elements</a>
+                        </li>
+                    </ul>
+
+                </nav>
+
+           </div>
+
+        </div>
+
+    </header>
+    <!--Header ends-->
+    <main class="main">
+        <section class="intro">  
+
+        </section>
+        <!--News starts-->
+        <section class="news">
+            <div class="news__wrap2">
+                <div class="news__wrap">
+                    <h1 class="news__title">
+                        Hey guys!
+                    </h1>
+
+                    <div class="news__logo">
+                        <img src="./img/logo2.png" alt="wind" class="logo2">
+                    </div>
+
+                    <div class="news__text">
+                        I want to share with you some useful knowledge that I got while playing <b class="keywords">Genshin Impact</b>. The guides are based on personal experience and will be updated.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--News ends-->
+    </main>
+
+    <!-- Button starts -->
+    <div class="button" onclick="scrollTopTop()"> </div>
+
+    <script>
+    window.addEventListener('scroll' ,function(){
+        var scroll = document.querySelector('.button');
+        scroll.classList.toggle("active", window.scrollY>300);
+    })
+        function scrollTopTop(){
+            window.scrollTo({
+                top:0,
+                behavior:'smooth'
+            })
+        }
+    </script>
+    <!-- Button ends -->
+    
+</body>
+</html>
